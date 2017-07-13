@@ -1,0 +1,49 @@
+.footer {
+    width: 100%;
+    background-color: rgb(128, 137, 142);
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-top: 20px;
+    &__ofert{
+        text-align: center;
+        font-size: 8px;
+    }
+    &__info {
+        font-size: 12px;
+        margin: 0;
+        text-align: left;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 15px;
+        height: 170px;
+        & a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            &:hover {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    &__phone {
+        margin: auto;
+    }
+    &__c{
+        text-align: center;
+        color: white;
+    }
+}
+@media(max-width: 991px) {
+    .footer__info {
+        text-align: center;
+    }
+    .footer__item{
+        margin-bottom: 20px;
+    }
+    
+}

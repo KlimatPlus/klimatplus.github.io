@@ -1,0 +1,39 @@
+.header {
+    & i{
+        position: absolute;
+        font-size: 45px;
+        color: rgb(0,83,206);
+        line-height: 94px;
+        display: inline-block;
+    }
+    & span{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-left: 10px;
+        border-left: transparent !important;
+        line-height: 98px;
+
+    }
+    &__logo{
+        margin: auto;
+    }
+    display: block;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    &__time,
+    &__adress,
+    &__phone {
+        height: 92px;
+    }
+}
+
+.header :not(:first-child) {
+    border-left: 1px solid gray;
+}
+@media(max-width: 991px){
+    .header span{
+        font-size: 12px;
+    }
+}

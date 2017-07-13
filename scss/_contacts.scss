@@ -1,0 +1,10 @@
+.contacts__info {
+    padding-top: 120px;
+    & span {
+        display: block;
+        font-size: 15px;
+        &:first-child{
+            font-weight: bold;
+        }
+    }
+}
