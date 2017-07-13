@@ -1,0 +1,47 @@
+.products{
+    &__producer-item{
+        height: 90px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+.aux{
+    background-image: url(../source/produsers/auxairconditioner.png);
+}
+.ballu{
+    background-image: url(../source/produsers/ballu.png);
+}
+.mitsubishi{
+    background-image: url(../source/produsers/mitsubishi.png);
+}
+.gree{
+    background-image: url(../source/produsers/Gree.png);
+}
+.airwell{
+    background-image: url(../source/produsers/airwell.png);
+}
+.dantex{
+    background-image: url(../source/produsers/dantex.png);
+}
+
+
+.condic_item-wrapper{
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.condic_item{
+    padding: 20px;
+    border: 1px solid gray;
+    & img{
+        display: block;
+        padding: 5px;
+        margin: 20px auto;
+        width: 90%;
+    }
+    & span{
+        display: block;
+    }
+}

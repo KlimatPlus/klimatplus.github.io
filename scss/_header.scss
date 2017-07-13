@@ -1,22 +1,22 @@
 .header {
-    & i{
+    & i {
         position: absolute;
         font-size: 45px;
-        color: rgb(0,83,206);
+        color: rgb(0, 83, 206);
         line-height: 94px;
         display: inline-block;
     }
-    & span{
+    & span {
         display: inline-block;
         width: 100%;
         text-align: center;
         margin-left: 10px;
         border-left: transparent !important;
         line-height: 98px;
-
     }
-    &__logo{
+    &__logo {
         margin: auto;
+        border-left: 0px solid transparent !important;
     }
     display: block;
     width: 100%;
@@ -32,8 +32,9 @@
 .header :not(:first-child) {
     border-left: 1px solid gray;
 }
-@media(max-width: 991px){
-    .header span{
+
+@media(max-width: 991px) {
+    .header span {
         font-size: 12px;
     }
 }
