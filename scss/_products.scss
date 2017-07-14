@@ -1,47 +1,65 @@
-.products{
-    &__producer-item{
+.products {
+    &__producer-item {
         height: 90px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
+        transition: 0.2s;
+        &:hover {
+            border: 1px solid transparent;
+            transition: 0.2s;
+        }
     }
 }
-.aux{
+
+.aux {
     background-image: url(../source/produsers/auxairconditioner.png);
 }
-.ballu{
-    background-image: url(../source/produsers/ballu.png);
+
+.daikin {
+    background-image: url(../source/produsers/daikin.png);
 }
-.mitsubishi{
+
+.mitsubishi {
     background-image: url(../source/produsers/mitsubishi.png);
 }
-.gree{
+
+.gree {
     background-image: url(../source/produsers/Gree.png);
 }
-.airwell{
-    background-image: url(../source/produsers/airwell.png);
+
+.alecord {
+    background-image: url(../source/produsers/alecord.png);
 }
-.dantex{
+
+.dantex {
     background-image: url(../source/produsers/dantex.png);
 }
 
-
-.condic_item-wrapper{
+.condic_item-wrapper {
     padding: 10px;
     margin-bottom: 50px;
 }
-.condic_item{
+
+.condic_item {
     padding: 20px;
     border: 1px solid gray;
-    & img{
+    & h3{
+        font-size: 20px;
+    }
+    & h4{
+        font-size: 15px;
+    }
+    & img {
         display: block;
         padding: 5px;
         margin: 20px auto;
         width: 90%;
+        min-height: 140px;//придумать что то с этим
     }
-    & span{
+    & span {
         display: block;
     }
 }
