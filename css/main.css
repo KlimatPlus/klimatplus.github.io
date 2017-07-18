@@ -159,6 +159,14 @@ h4 {
   text-align: center;
   text-transform: uppercase; }
 
+/* line 9, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_common.scss */
+dt,
+dd {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  padding-right: 10px; }
+
 /* line 1, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_header.scss */
 .header {
   display: block;
@@ -285,34 +293,39 @@ h4 {
 .dantex {
   background-image: url(../source/produsers/dantex.png); }
 
-/* line 41, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
+/* line 40, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
+.chigo {
+  background-image: url(../source/produsers/chigo.png);
+  height: 50px; }
+
+/* line 45, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
 .condic_item-wrapper {
   padding: 10px;
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
 
-/* line 46, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
+/* line 50, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
 .condic_item {
   padding: 20px;
   box-shadow: 0px 10px 46px -10px black;
   transition: 0.5s; }
-  /* line 50, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
+  /* line 54, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
   .condic_item:hover {
     transform: scale(1.1, 1.1);
     cursor: pointer; }
-  /* line 54, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
+  /* line 58, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
   .condic_item h3 {
     font-size: 20px; }
-  /* line 57, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
+  /* line 61, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
   .condic_item h4 {
     font-size: 15px; }
-  /* line 60, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
+  /* line 64, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
   .condic_item img {
     display: block;
     padding: 5px;
     margin: 20px auto;
     width: 90%;
     min-height: 140px; }
-  /* line 67, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
+  /* line 71, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_products.scss */
   .condic_item span {
     display: block; }
 
@@ -410,5 +423,23 @@ h4 {
   /* line 45, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_footer.scss */
   .footer__item {
     margin-bottom: 20px; } }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_diploms.scss */
+.diploms {
+  height: 220px;
+  display: flex;
+  justify-content: space-between; }
+  /* line 5, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_diploms.scss */
+  .diploms__item {
+    height: 100%;
+    overflow: hidden;
+    transition: 0.5s; }
+    /* line 9, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_diploms.scss */
+    .diploms__item:hover {
+      transform: scale(3, 3);
+      z-index: 100; }
+  /* line 14, ../../Users/Сергей Садчиков/Desktop/KlimatPlusLanding/scss/_diploms.scss */
+  .diploms__image {
+    height: 100%; }
 
 /*# sourceMappingURL=main.css.map */

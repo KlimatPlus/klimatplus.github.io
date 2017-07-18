@@ -5,3 +5,11 @@ h4 {
     text-align: center;
     text-transform: uppercase;
 }
+
+dt,
+dd {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding-right: 10px;
+}
